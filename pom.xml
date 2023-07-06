@@ -9,10 +9,10 @@
 		<version>2.5.2</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.satoruakiyama</groupId>
-	<artifactId>employee-management-system</artifactId>
+	<groupId>com.example</groupId>
+	<artifactId>PersoneData</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>employee-management-system</name>
+	<name>PersoneData</name>
 	<description>Demo project for Spring Boot Web App</description>
 	<properties>
 		<java.version>11</java.version>

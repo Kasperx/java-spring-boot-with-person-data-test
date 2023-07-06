@@ -1,4 +1,4 @@
-package com.example.employeemanagementsystem.controller;
+package com.example.PersonData.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import com.example.employeemanagementsystem.model.Employee;
-import com.example.employeemanagementsystem.service.EmployeeService;
+import com.example.PersonData.model.Employee;
+import com.example.PersonData.service.EmployeeService;
 
 @Controller // This means that this class is a Controller
 public class EmployeeController {

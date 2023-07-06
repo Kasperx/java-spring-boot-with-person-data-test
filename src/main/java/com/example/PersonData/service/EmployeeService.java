@@ -1,5 +1,5 @@
 
-package com.example.employeemanagementsystem.service;
+package com.example.PersonData.service;
 
 import java.util.List;
 import java.util.Random;
@@ -8,8 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.github.javafaker.Faker;
-import com.example.employeemanagementsystem.model.Employee;
-import com.example.employeemanagementsystem.repository.EmployeeRepository;
+import com.example.PersonData.model.Employee;
+import com.example.PersonData.repository.EmployeeRepository;
 
 @Service // This means that this class is a service
 public class EmployeeService extends Tools{
