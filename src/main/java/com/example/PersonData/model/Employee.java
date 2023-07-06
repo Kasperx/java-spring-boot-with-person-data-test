@@ -1,4 +1,4 @@
-package com.example.employeemanagementsystem.model;
+package com.example.PersonData.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
