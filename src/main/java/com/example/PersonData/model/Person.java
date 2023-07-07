@@ -6,7 +6,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity // This tells Hibernate to create a table of this class
-public class Employee {
+public class Person {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	//	By @GeneratedValue, JPA makes a unique key automatically and applies the key to the field having @Id
@@ -24,7 +24,7 @@ public class Employee {
 		this.age = age;
 	}
 
-	public Employee() {
+	public Person() {
 	}
 
 	public long getId() {
